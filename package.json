@@ -1,0 +1,29 @@
+{
+  "name": "tb",
+  "version": "0.0.1",
+  "description": "pretty tabular output for json",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhurlow/tb.git"
+  },
+  "keywords": [
+    "tabular",
+    "json",
+    "jq",
+    "cli"
+  ],
+  "author": "Brian Hurlow",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bhurlow/tb/issues"
+  },
+  "homepage": "https://github.com/bhurlow/tb#readme",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "underscore": "^1.8.3"
+  }
+}
